@@ -1,9 +1,9 @@
-import React from 'react'
-import { Switch, Route } from 'react-router'
-import Home from './components/Home'
-import About from './components/About'
-import Car from './components/Car'
-import Dashboard from './components/Dashboard'
+import React from 'react';
+import { Switch, Route } from 'react-router';
+import Home from './containers/Home'; // Updated import path
+import About from './components/About';
+import Car from './containers/Car'; // Updated import path
+import Dashboard from './containers/Dashboard'; // Updated import path
 
 const Router = () => {
     return (
